@@ -13,6 +13,10 @@
 		DE087690271439E30068CEB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE08768E271439E30068CEB5 /* Main.storyboard */; };
 		DE087692271439E60068CEB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE087691271439E60068CEB5 /* Assets.xcassets */; };
 		DE087695271439E60068CEB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE087693271439E60068CEB5 /* LaunchScreen.storyboard */; };
+		DE08769D27143A070068CEB5 /* world heritage1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DE08769C27143A070068CEB5 /* world heritage1.jpeg */; };
+		DE0876A027143A110068CEB5 /* world heritage3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DE08769E27143A100068CEB5 /* world heritage3.jpeg */; };
+		DE0876A127143A110068CEB5 /* world heritage2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DE08769F27143A110068CEB5 /* world heritage2.jpeg */; };
+		DE0876A327143E310068CEB5 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0876A227143E310068CEB5 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		DE087691271439E60068CEB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE087694271439E60068CEB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE087696271439E60068CEB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE08769C27143A070068CEB5 /* world heritage1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "world heritage1.jpeg"; sourceTree = "<group>"; };
+		DE08769E27143A100068CEB5 /* world heritage3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "world heritage3.jpeg"; sourceTree = "<group>"; };
+		DE08769F27143A110068CEB5 /* world heritage2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "world heritage2.jpeg"; sourceTree = "<group>"; };
+		DE0876A227143E310068CEB5 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +67,14 @@
 				DE087688271439E30068CEB5 /* AppDelegate.swift */,
 				DE08768A271439E30068CEB5 /* SceneDelegate.swift */,
 				DE08768C271439E30068CEB5 /* ViewController.swift */,
+				DE0876A227143E310068CEB5 /* ResultViewController.swift */,
 				DE08768E271439E30068CEB5 /* Main.storyboard */,
 				DE087691271439E60068CEB5 /* Assets.xcassets */,
 				DE087693271439E60068CEB5 /* LaunchScreen.storyboard */,
 				DE087696271439E60068CEB5 /* Info.plist */,
+				DE08769C27143A070068CEB5 /* world heritage1.jpeg */,
+				DE08769F27143A110068CEB5 /* world heritage2.jpeg */,
+				DE08769E27143A100068CEB5 /* world heritage3.jpeg */,
 			);
 			path = SlideshowApp;
 			sourceTree = "<group>";
@@ -125,7 +137,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE087695271439E60068CEB5 /* LaunchScreen.storyboard in Resources */,
+				DE0876A127143A110068CEB5 /* world heritage2.jpeg in Resources */,
 				DE087692271439E60068CEB5 /* Assets.xcassets in Resources */,
+				DE0876A027143A110068CEB5 /* world heritage3.jpeg in Resources */,
+				DE08769D27143A070068CEB5 /* world heritage1.jpeg in Resources */,
 				DE087690271439E30068CEB5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +155,7 @@
 				DE08768D271439E30068CEB5 /* ViewController.swift in Sources */,
 				DE087689271439E30068CEB5 /* AppDelegate.swift in Sources */,
 				DE08768B271439E30068CEB5 /* SceneDelegate.swift in Sources */,
+				DE0876A327143E310068CEB5 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
